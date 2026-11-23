@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <queries>
+        <intent><action android:name="android.intent.action.TTS_SERVICE" /></intent>
+    </queries>
+    <application>
+        <activity android:name="com.example.myapplication.ui.IsolatedCourseLibraryActivity" android:exported="false" />
+        <activity android:name="com.example.myapplication.ui.IsolatedCourseBookActivity" android:exported="false" />
+        <activity android:name="com.example.myapplication.ui.M01AccessibilityActivity" android:exported="false" />
+        <activity android:name="com.example.myapplication.ui.ReaderEnginePocActivity" android:exported="false" />
+        <activity android:name="com.example.myapplication.ui.MarkdownReaderProbeActivity" android:exported="false" />
+        <activity android:name="com.example.myapplication.ui.IsolatedPdfReaderActivity" android:exported="false" />
+        <activity android:name="com.example.myapplication.ui.IsolatedReflowReaderActivity" android:exported="false" />
+    </application>
+</manifest>
+

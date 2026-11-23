@@ -1,0 +1,382 @@
+{
+  "schemaVersion": 1,
+  "packId": "meridian-encyclopedia",
+  "contentRevision": "da8ab372c5fca86b0d8e4e4a9b6ac39fa017c83460b82df04279c2d04719bec3",
+  "coordinateVersion": "gb-t-12346-2021-proto-20261122",
+  "artworkVersion": "illustrations-20261122",
+  "reviewStatus": {
+    "overall": "PROTOTYPE_VERIFIED_PENDING_EXPERT_AUDIT",
+    "catalog": "GB_T_12346_2021_CLAUSE_VERIFIED",
+    "atlas": "SURFACE_PROJECTION_CHECKED",
+    "regions": "LOCAL_LANDMARK_CHECKED",
+    "learning": "TEXTBOOK_SOURCE_LINKED",
+    "illustrations": "PROTOTYPE_PLATES_62_PNG_VERIFIED"
+  },
+  "upstreamAttribution": {
+    "standard": {
+      "title": "GB/T 12346-2021 经穴名称与定位",
+      "url": "https://www.ntcamsac.ac.cn/upload/std_info/202306192125376309.pdf",
+      "scope": "十四经 361 穴国际代码、穴名、条款号与 PDF 页码"
+    },
+    "coordinateSeed": {
+      "title": "JIC PressPoints / tcm-3d",
+      "license": "MIT",
+      "url": "https://github.com/JICio/tcm-3d/blob/e8b9ad1c17e67a25e94406100e3fb5c296c24f7a/public/ATTRIBUTION.md",
+      "licenseFileSha256": "4f5a617b8e63cca63781d72135209bc99b967a23276d1bffc4807e69fbac689f",
+      "note": "BodyParts3D-derived assets in upstream public/models/** are CC BY 4.0 and are not included; only 2D teaching projections reviewed against GB/T 12346-2021 and local PNG illustrations are packaged."
+    },
+    "courseware": {
+      "title": "北京中医药大学《针灸学》课件等公开高校教材与实训资料",
+      "url": "https://jxjyxb.bucm.edu.cn/BZYAttachs/courseware/zhenjiuxue/",
+      "scope": "经脉循行、逐穴传统主治摘要与 45 个病症学习线索及出处"
+    }
+  },
+  "counts": {
+    "meridians": 14,
+    "points": 361,
+    "regionViews": 361,
+    "pointLearning": 361,
+    "symptomCategories": 9,
+    "symptoms": 45,
+    "associations": 495,
+    "atlasViews": 3,
+    "frontProjections": 171,
+    "backProjections": 121,
+    "sideProjections": 86,
+    "uniqueProjectedPoints": 357,
+    "occludedPoints": 4,
+    "illustrations": 62
+  },
+  "files": [
+    {
+      "path": "atlas.json",
+      "sha256": "68e8a50a5d79ebfb32168f708764009336d39ca782ef07b7d06c9ba00d5a28ab",
+      "bytes": 50599
+    },
+    {
+      "path": "catalog.json",
+      "sha256": "4726584968f43cb53eed697eeae1d08d1113717dd1264ed588bd6a992ddc28d8",
+      "bytes": 137051
+    },
+    {
+      "path": "illustrations/bl-front-scalp.png",
+      "sha256": "3f290cf451c45ba54c5b7613045ec0711f0560714769e61fc3fe0add5b15931c",
+      "bytes": 469492
+    },
+    {
+      "path": "illustrations/bl-knee.png",
+      "sha256": "8779542414ef209cb4f57deb0364fa6e5f0637752373f47446932dc237ada60d",
+      "bytes": 292478
+    },
+    {
+      "path": "illustrations/bl-lateral-foot.png",
+      "sha256": "e717397ae45461acff6564f5d0fac7fe6afcd9e8e4ed05069ae19b92d4a6d5d9",
+      "bytes": 487721
+    },
+    {
+      "path": "illustrations/bl-lower-thoracic.png",
+      "sha256": "dbec9a4eb08eba1c4632cbf25a4d7f9bd76c8151a8f887899f85f8a4d29008b1",
+      "bytes": 502304
+    },
+    {
+      "path": "illustrations/bl-lumbar.png",
+      "sha256": "2fc4cb28b3c89f7dd80993bfe399eec963783240b9926287691d3f618011772b",
+      "bytes": 543527
+    },
+    {
+      "path": "illustrations/bl-posterior-calf.png",
+      "sha256": "0edab9417f5f6c77eb8d0fe862fa86f67dabd58ea527d398197a223b2c818bf7",
+      "bytes": 431242
+    },
+    {
+      "path": "illustrations/bl-posterior-thigh.png",
+      "sha256": "2c00d59ce0fb633b225deee8227e23299abe55b7d5d3709b04aa723c90447957",
+      "bytes": 532928
+    },
+    {
+      "path": "illustrations/bl-rear-scalp.png",
+      "sha256": "bcbbf2e00194e231df5b15070f08ba4041cb8e6ed8161c0f85f122098fcfe87d",
+      "bytes": 379651
+    },
+    {
+      "path": "illustrations/bl-sacral.png",
+      "sha256": "08be62440aabef69ee6326345f2f6d8e1417fcf828bfee728ad5b51c6b1d12cb",
+      "bytes": 461369
+    },
+    {
+      "path": "illustrations/bl-thoracic.png",
+      "sha256": "9ae637669dbf1f3b6db63de84fe36f4e4114a959855867ba08f5a4bf01986649",
+      "bytes": 557932
+    },
+    {
+      "path": "illustrations/body-back-matched.png",
+      "sha256": "6e3c2e7afe478abf3d4d0ea8f670e89e6bd27c66f984ebb3fdc302de9da96988",
+      "bytes": 1523063
+    },
+    {
+      "path": "illustrations/body-front-faced.png",
+      "sha256": "8e83ae7de893d0a12a417547e46457af33bb3d3c36d6bb441c6817ecedfead1d",
+      "bytes": 761115
+    },
+    {
+      "path": "illustrations/body-side-faced.png",
+      "sha256": "990e6fb55d557daab9851762d5f520b0d6283685dd6ce965675f6f299c0da4ab",
+      "bytes": 366490
+    },
+    {
+      "path": "illustrations/cv-anterior-neck.png",
+      "sha256": "059f3a6f6e01e559c792393cd36ebd26ad8e6840ea3c2e2d20f67abc927b1981",
+      "bytes": 664207
+    },
+    {
+      "path": "illustrations/gb-costal-flank.png",
+      "sha256": "1301d3f4a47a450dc13be847b5d3176a0439c9e235dad0be5148867bba529b05",
+      "bytes": 329861
+    },
+    {
+      "path": "illustrations/gb-lateral-hip.png",
+      "sha256": "f67945c516a43a0c3c62f52bb85bc19684a7030d82410ea872702bc2508d53fb",
+      "bytes": 550112
+    },
+    {
+      "path": "illustrations/gb-lateral-leg.png",
+      "sha256": "556652cc21401c71adee568a80ebab6906f52b7936dcb837b37d24d39961dccb",
+      "bytes": 430263
+    },
+    {
+      "path": "illustrations/gb-lateral-thigh.png",
+      "sha256": "2ba3097c4a2852a205026c43d86812dabe36332b13efea33e107e9074d7c90b3",
+      "bytes": 569470
+    },
+    {
+      "path": "illustrations/gb-occiput.png",
+      "sha256": "1b2dbc8f695ec8502be100a3717d3a43afb44c56b9a18d685fd7e5e65d779276",
+      "bytes": 322647
+    },
+    {
+      "path": "illustrations/gv-sacrococcygeal-perineum.png",
+      "sha256": "15494e5faad03c9a069247523ab8f8ae2e610694069e1983958e9aa47c1082cb",
+      "bytes": 514707
+    },
+    {
+      "path": "illustrations/gv-upper-labial-frenulum.png",
+      "sha256": "65e54257c229f8dd265fa9049da0830781d8bc630403ff766cb1e662acfba88c",
+      "bytes": 835402
+    },
+    {
+      "path": "illustrations/ht-little-finger.png",
+      "sha256": "79113b08054148c92dc06bce28bb65e9c8964f2ca2652024040279efe72dd826",
+      "bytes": 465716
+    },
+    {
+      "path": "illustrations/ht-medial-arm.png",
+      "sha256": "551a09f849fca8423a3e8db1767772089eddf45d0cd1f1dc5f5b1dcc74e2d8f1",
+      "bytes": 636560
+    },
+    {
+      "path": "illustrations/ht-ulnar-wrist-palm.png",
+      "sha256": "a12fd383b4e2e9fe88b7e0e8fca82b53906c4a7e19a7c662b1534c01ffd80e7c",
+      "bytes": 632583
+    },
+    {
+      "path": "illustrations/ki-sole.png",
+      "sha256": "eae186c0a17ca70a86b8064e8a26d3bbb85d7a0b3014210c9aa745b7e4b80ae5",
+      "bytes": 630460
+    },
+    {
+      "path": "illustrations/li-elbow.png",
+      "sha256": "07cb427b3d10fb8a4c5f0d0c044375b6e44df27270d446dea132ccac622c951f",
+      "bytes": 605437
+    },
+    {
+      "path": "illustrations/li-face.png",
+      "sha256": "b6e030f23a8008388f8041a72aa28c9378b838f19c4d622f91b06ee04356ec51",
+      "bytes": 763496
+    },
+    {
+      "path": "illustrations/li-forearm.png",
+      "sha256": "8187478aec6380612c9d37aa2a985fa2d411a463cbcbf6cda3ce15c8a9ef7cdb",
+      "bytes": 481096
+    },
+    {
+      "path": "illustrations/li-hand.png",
+      "sha256": "e10bf7f7291fac5839dfa634889f91b2f57f2e4762e353d49d0d1663301191a8",
+      "bytes": 579610
+    },
+    {
+      "path": "illustrations/li-neck.png",
+      "sha256": "6e354517058b9b5a7050347ad48db27ba296d33040dd22c8259203affc78dadf",
+      "bytes": 771699
+    },
+    {
+      "path": "illustrations/li-shoulder.png",
+      "sha256": "adfbfde49b7409fcc96070de9c11ea0b92a2a9e546edbde50c34107db5ecd38a",
+      "bytes": 734591
+    },
+    {
+      "path": "illustrations/li-upper-arm.png",
+      "sha256": "913155e13c9e77e3a58828290c92767ee1c4228c07293e1f1369e2d1ca3bf0d8",
+      "bytes": 532285
+    },
+    {
+      "path": "illustrations/lr-groin-thigh.png",
+      "sha256": "52e2c69fe77e57fb47feac3c982137c4d49b4342072c1616ab4c1825652abf2c",
+      "bytes": 585024
+    },
+    {
+      "path": "illustrations/lu-chest-shoulder.png",
+      "sha256": "1feba7624cf9cf6a55c5a4a436f9e694fa0949ad13a3c1287dd3618932b8fa7d",
+      "bytes": 740246
+    },
+    {
+      "path": "illustrations/lu-forearm.png",
+      "sha256": "6286afa3cfa7f202b256d61d74635725c3aef4a7d1b3a510b54645446912ae98",
+      "bytes": 417290
+    },
+    {
+      "path": "illustrations/lu-upper-arm.png",
+      "sha256": "6f72fac235adf0b081ccfcca38736e2f0d51f50cb7384648186944ee2af2dec2",
+      "bytes": 613299
+    },
+    {
+      "path": "illustrations/lu10-anatomy.png",
+      "sha256": "2bf6c8c9bb0fcfb861e08bba7d1c61c89155bffb19caad761e5b7d94ba7e9c73",
+      "bytes": 484687
+    },
+    {
+      "path": "illustrations/lu11-anatomy.png",
+      "sha256": "8f5effab013c40030b05b0abb487988dea31c55d4f572baebc5b02b05caa0b8b",
+      "bytes": 628513
+    },
+    {
+      "path": "illustrations/lu5-anatomy.png",
+      "sha256": "a125b65686ef689adeff0e3d2075e5bf8de05800aaa123e4b4b8e7b5e2347f70",
+      "bytes": 421949
+    },
+    {
+      "path": "illustrations/lu7-anatomy.png",
+      "sha256": "84b5f809658365fc4543d9d25a06a34031d1493caa2ae4e82ccf76b5af741739",
+      "bytes": 322693
+    },
+    {
+      "path": "illustrations/lu8-anatomy.png",
+      "sha256": "59e94de4142dda8793eb2b3f9f7e2dc6d3d23d8683d7017ad236e85e3147f636",
+      "bytes": 517235
+    },
+    {
+      "path": "illustrations/lu9-anatomy.png",
+      "sha256": "4b48cc3d7a933cd276b348a32327c931d55a931c80fcf3dea9d567f6733b5e77",
+      "bytes": 583970
+    },
+    {
+      "path": "illustrations/si-ear-open.png",
+      "sha256": "fc6cd55448c5838a3161d08d4f9010e025a0d8147366e8ce4011910c438cff7e",
+      "bytes": 611192
+    },
+    {
+      "path": "illustrations/si-posterior-elbow.png",
+      "sha256": "40e8427eb828179c22eea9345272752e81f19030341b7895e9017097a913e37a",
+      "bytes": 544478
+    },
+    {
+      "path": "illustrations/si-posterior-forearm.png",
+      "sha256": "b45926f263d14b7d07602c6c0e6fa312c6636cb8f40e485a12cac51bdd2187f2",
+      "bytes": 435459
+    },
+    {
+      "path": "illustrations/si-posterior-shoulder.png",
+      "sha256": "7b855822e8ecf29dca76abdcaa280a70cba9e1cf7910a3f77c9be3be1f8bbf22",
+      "bytes": 524798
+    },
+    {
+      "path": "illustrations/si-ulnar-hand-wrist.png",
+      "sha256": "2f7ed5488975b3b54a0b84463a788c9c28e786ed2d01d7a9499e4581fce46d42",
+      "bytes": 568328
+    },
+    {
+      "path": "illustrations/sp-abdomen.png",
+      "sha256": "9b29172d5e2d873c8c29378f64dd563b2481ced8031004d92cf926cd4493714d",
+      "bytes": 359830
+    },
+    {
+      "path": "illustrations/sp-lateral-chest.png",
+      "sha256": "fe183c0a15cbbc5f4995263c5642d69d863ed84024bc74ca793d4ffbe2e445b7",
+      "bytes": 314645
+    },
+    {
+      "path": "illustrations/sp-medial-foot.png",
+      "sha256": "a79842c15ad32de23e5a7cda63e45cabace5021f40cdfb7f21638fa2ee6080ea",
+      "bytes": 559296
+    },
+    {
+      "path": "illustrations/sp-medial-shin.png",
+      "sha256": "694469a2ff1da1ad17ae9c9b3006b767e1751d9b7b7e2174e5ab296eb20b32b9",
+      "bytes": 420034
+    },
+    {
+      "path": "illustrations/sp-medial-thigh.png",
+      "sha256": "d169a137e4af30183d5bb740edde974352d9029eb435bb203639c6815ea73f42",
+      "bytes": 580496
+    },
+    {
+      "path": "illustrations/st-chest.png",
+      "sha256": "31d2060a3c0a40e11d6973aa0e6441b6848772d85782811c0758deb38ab6145d",
+      "bytes": 794775
+    },
+    {
+      "path": "illustrations/st-foot.png",
+      "sha256": "464d4edb92e084dbd0bd017b2893f5f0bcf3cf9fe1c6258a666def8fc13b8585",
+      "bytes": 688032
+    },
+    {
+      "path": "illustrations/st-lower-abdomen.png",
+      "sha256": "f25c5d0b00b72ba9017c283f87f9a4fb9524dd88406293c461036aaad48b743e",
+      "bytes": 524249
+    },
+    {
+      "path": "illustrations/st-mid-face.png",
+      "sha256": "22616ac5ac8d65db8e1bb70f1c6d016b7226c835d5e3fd4ed23ae7a08ea7efb6",
+      "bytes": 514742
+    },
+    {
+      "path": "illustrations/st-shin.png",
+      "sha256": "cc289be9b291a1819725be242a8497279e9570ab243a101674c9b54f0b8a01d7",
+      "bytes": 366990
+    },
+    {
+      "path": "illustrations/st-temple-jaw.png",
+      "sha256": "6de8b872809aaf5a9f220c39a93622408b99987fd7f25d5bffde611d1073be06",
+      "bytes": 559916
+    },
+    {
+      "path": "illustrations/st-thigh.png",
+      "sha256": "76ac403bec39dfb2a8765eb50a3f5403a4fb2333cea176a16aab5376a36cd716",
+      "bytes": 516248
+    },
+    {
+      "path": "illustrations/st-upper-abdomen.png",
+      "sha256": "b8b2520596d6f6232ac318601d777177b6f8fff92e1aa81372bc22fea54b74ca",
+      "bytes": 570265
+    },
+    {
+      "path": "illustrations/te-periauricular.png",
+      "sha256": "9a12eb6f28c42012addc222633663aa91a53381575de7b4526e04fbac457ea29",
+      "bytes": 661583
+    },
+    {
+      "path": "illustrations/te-posterior-arm.png",
+      "sha256": "9f2a356bd848d7580d5c3cce0e0b1fdb180401f37845f175f0b2f5af87bbafc5",
+      "bytes": 500739
+    },
+    {
+      "path": "learning.json",
+      "sha256": "466fc82bb4a8ae768578393466007f1be3d344bcd09aca13851468d39a2b1e2d",
+      "bytes": 315910
+    },
+    {
+      "path": "regions.json",
+      "sha256": "c0dc8ed73c0f2b6171be7c759bc884f1e174584d763352f0b701ebc859bc30e4",
+      "bytes": 431774
+    }
+  ]
+}

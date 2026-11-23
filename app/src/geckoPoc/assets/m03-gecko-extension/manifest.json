@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "M03 isolated Gecko probe",
+  "version": "1.0.8",
+  "browser_specific_settings": {"gecko": {"id": "m03-poc@app1.local"}},
+  "permissions": ["geckoViewAddons", "nativeMessaging", "nativeMessagingFromContent", "webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {"scripts": ["background.js"]},
+  "content_scripts": [{"matches": ["http://127.0.0.1/*"], "js": ["content.js"], "run_at": "document_start", "all_frames": false}]
+}

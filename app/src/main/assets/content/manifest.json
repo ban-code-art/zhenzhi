@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "packageId": "builtin-acupuncture",
+  "version": 1,
+  "reviewStatus": "DEVELOPMENT_SAMPLE",
+  "chapters": [
+    { "key": "meridian-overview", "order": 0, "title": "经络总论", "summary": "经络系统的基本概念与组成", "body": "chapters/meridian-overview.html" },
+    { "key": "twelve-meridians", "order": 1, "title": "十二经脉", "summary": "十二经脉的走向与表里关系", "body": "chapters/twelve-meridians.html" },
+    { "key": "acupoint-basics", "order": 2, "title": "腧穴总论", "summary": "腧穴分类、定位与主治规律", "body": "chapters/acupoint-basics.html" },
+    { "key": "common-acupoints", "order": 3, "title": "常用腧穴", "summary": "临床学习中的常用穴位示例", "body": "chapters/common-acupoints.html" },
+    { "key": "needling-basics", "order": 4, "title": "刺法基础", "summary": "针刺操作的基本概念与安全边界", "body": "chapters/needling-basics.html" },
+    { "key": "moxibustion-basics", "order": 5, "title": "灸法基础", "summary": "灸法分类、适应证与注意事项", "body": "chapters/moxibustion-basics.html" },
+    { "key": "treatment-principles", "order": 6, "title": "针灸治疗原则", "summary": "辨证选经、选穴与配穴思路", "body": "chapters/treatment-principles.html" }
+  ]
+}

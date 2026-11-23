@@ -1,17 +1,23 @@
 package com.example.myapplication.ui.mine
 
+import androidx.compose.runtime.Composable
+import androidx.compose.runtime.ReadOnlyComposable
 import androidx.compose.ui.graphics.Color
+import com.example.myapplication.ui.theme.AppTheme
+import com.example.myapplication.ui.theme.UiRoles
+import com.example.myapplication.ui.theme.UiSurfaceRole
 
-internal val PageBackground = Color(0xFFF3F8F5)
-internal val CardWhite = Color(0xFFFFFFFF)
-internal val TextPrimary = Color(0xFF2F3B36)
-internal val TextSecondary = Color(0xFF8A94A6)
-internal val PrimaryGreen = Color(0xFF4FA98C)
-internal val GreenBg = Color(0xFFE4F3EC)
-internal val Blue = Color(0xFF5B8DEF)
-internal val BlueBg = Color(0xFFE8F0FE)
-internal val Orange = Color(0xFFE8894C)
-internal val OrangeBg = Color(0xFFFCEFE0)
-internal val Gray = Color(0xFF8A94A6)
-internal val GrayBg = Color(0xFFEEF0F3)
-internal val Red = Color(0xFFD9534F)
+internal val PageBackground: Color @Composable @ReadOnlyComposable get() = UiRoles.surface(UiSurfaceRole.Page)
+internal val CardWhite: Color @Composable @ReadOnlyComposable get() = UiRoles.surface(UiSurfaceRole.Card)
+internal val TextPrimary: Color @Composable @ReadOnlyComposable get() = AppTheme.colors.onSurface
+internal val TextSecondary: Color @Composable @ReadOnlyComposable get() = AppTheme.colors.onSurfaceVariant
+internal val PrimaryGreen: Color @Composable @ReadOnlyComposable get() = UiRoles.extended.success
+internal val GreenBg: Color @Composable @ReadOnlyComposable get() = UiRoles.extended.successContainer
+internal val Blue: Color @Composable @ReadOnlyComposable get() = UiRoles.extended.info
+internal val BlueBg: Color @Composable @ReadOnlyComposable get() = UiRoles.extended.infoContainer
+internal val Orange: Color @Composable @ReadOnlyComposable get() = UiRoles.extended.warning
+internal val OrangeBg: Color @Composable @ReadOnlyComposable get() = UiRoles.extended.warningContainer
+internal val Gray: Color @Composable @ReadOnlyComposable get() = AppTheme.colors.onSurfaceVariant
+internal val GrayBg: Color @Composable @ReadOnlyComposable get() = UiRoles.surface(UiSurfaceRole.Inset)
+internal val Red: Color @Composable @ReadOnlyComposable get() = UiRoles.extended.destructive
+internal val HairlineDivider: Color @Composable @ReadOnlyComposable get() = UiRoles.foreground.copy(alpha = .14f)

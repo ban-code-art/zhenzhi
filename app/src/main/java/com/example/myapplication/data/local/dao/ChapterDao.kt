@@ -21,4 +21,13 @@ interface ChapterDao {
 
     @Query("SELECT * FROM chapters WHERE id = :id LIMIT 1")
     suspend fun findById(id: Long): ChapterEntity?
+
+    @Query("SELECT * FROM chapters WHERE content_key = :contentKey LIMIT 1")
+    suspend fun findByContentKey(contentKey: String): ChapterEntity?
+
+    @Insert(onConflict = OnConflictStrategy.ABORT)
+    suspend fun insert(chapter: ChapterEntity): Long
+
+    @Query("UPDATE chapters SET order_index = :orderIndex, title = :title, summary = :summary, enabled = :enabled WHERE id = :id")
+    suspend fun updateMetadata(id: Long, orderIndex: Int, title: String, summary: String?, enabled: Boolean): Int
 }

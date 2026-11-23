@@ -36,4 +36,10 @@ interface TestRecordDao {
             "FROM test_records WHERE user_id = :userId AND status = 'SUBMITTED' ORDER BY 1 DESC"
     )
     suspend fun getActiveDays(userId: Long): List<String>
+
+    @Query(
+        "SELECT DISTINCT strftime('%Y-%m-%d', started_at / 1000, 'unixepoch', 'localtime') " +
+            "FROM test_records WHERE user_id = :userId AND status = 'SUBMITTED' ORDER BY 1 DESC"
+    )
+    fun observeActiveDays(userId: Long): Flow<List<String>>
 }

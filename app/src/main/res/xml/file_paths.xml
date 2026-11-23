@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  导出包分享白名单（W5-05）。
+
+  只暴露应用 cache 下的 exports/ 子目录，也就是 BackupPackageWriter 的输出根：
+  - 不暴露 files/ 下的阅读数据、墨迹、密钥等任何内容；
+  - 恢复侧只从 cache/exports 读取备份包，路径必须通过 canonicalPath 越界校验。
+-->
+<paths>
+    <cache-path name="exports" path="exports/" />
+</paths>

@@ -1,0 +1,15 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <!-- Gecko's optional media dependency declares notification use. No runtime request in this PoC. -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <queries>
+        <intent><action android:name="android.intent.action.TTS_SERVICE" /></intent>
+    </queries>
+    <application android:name="com.example.myapplication.ui.GeckoPocApplication" tools:replace="android:name">
+        <service android:name="com.example.myapplication.ui.GeckoPocCrashService" android:exported="false" android:process=":m03Crash" android:foregroundServiceType="shortService" />
+        <activity android:name="com.example.myapplication.ui.M01AccessibilityActivity" android:exported="false" />
+        <activity android:name="com.example.myapplication.ui.ReaderEnginePocActivity" android:exported="false" />
+        <activity android:name="com.example.myapplication.ui.MarkdownReaderProbeActivity" android:exported="false" />
+        <activity android:name="com.example.myapplication.ui.GeckoReaderPocActivity" android:exported="false" />
+    </application>
+</manifest>

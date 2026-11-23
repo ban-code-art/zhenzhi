@@ -6,8 +6,7 @@
    See https://developer.android.com/about/versions/12/backup-restore
 -->
 <full-backup-content>
-    <!--
-   <include domain="sharedpref" path="."/>
-   <exclude domain="sharedpref" path="device.xml"/>
--->
+    <!-- 密钥密文绝不进备份：恢复后要求用户重新输入（设计 §3.3）。 -->
+    <exclude domain="file" path="ai-secrets" />
+    <exclude domain="root" path="ai-secrets" />
 </full-backup-content>

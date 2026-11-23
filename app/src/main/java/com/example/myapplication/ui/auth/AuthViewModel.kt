@@ -8,6 +8,7 @@ import com.example.myapplication.data.local.AppDatabase
 import com.example.myapplication.data.repository.UserRepository
 import com.example.myapplication.data.session.SessionManager
 import com.example.myapplication.domain.validation.AuthValidation
+import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
@@ -36,26 +37,21 @@ class AuthViewModel(
 
     fun login(onSuccess: () -> Unit) {
         val s = _state.value
+        if (s.loading) return
         if (s.username.isBlank() || s.password.isBlank()) {
             _state.update { it.copy(error = "请输入用户名和密码") }
             return
         }
-        viewModelScope.launch {
-            _state.update { it.copy(loading = true, error = null) }
-            when (val result = userRepository.login(s.username.trim(), s.password)) {
-                is UserRepository.AuthResult.Success -> {
-                    sessionManager.login(result.userId)
-                    _state.update { it.copy(loading = false) }
-                    onSuccess()
-                }
-                is UserRepository.AuthResult.Failure ->
-                    _state.update { it.copy(loading = false, error = result.message) }
-            }
-        }
+        submit(
+            snapshot = s,
+            failureMessage = "无法完成本地登录，请重试",
+            onSuccess = onSuccess,
+        ) { userRepository.login(s.username.trim(), s.password) }
     }
 
     fun register(onSuccess: () -> Unit) {
         val s = _state.value
+        if (s.loading) return
         val username = s.username.trim()
         AuthValidation.validateUsername(username)?.let { msg ->
             _state.update { it.copy(error = msg) }
@@ -70,17 +66,42 @@ class AuthViewModel(
             return
         }
 
+        submit(
+            snapshot = s,
+            failureMessage = "无法完成本地注册，请重试",
+            onSuccess = onSuccess,
+        ) { userRepository.register(username, s.password, s.nickname.trim()) }
+    }
+
+    private fun submit(
+        snapshot: UiState,
+        failureMessage: String,
+        onSuccess: () -> Unit,
+        operation: suspend () -> UserRepository.AuthResult,
+    ) {
+        // Acquire before launch: repeated button/IME actions cannot queue a second request.
+        if (!_state.compareAndSet(snapshot, snapshot.copy(loading = true, error = null))) return
         viewModelScope.launch {
-            _state.update { it.copy(loading = true, error = null) }
-            when (val result = userRepository.register(username, s.password, s.nickname.trim())) {
-                is UserRepository.AuthResult.Success -> {
-                    sessionManager.login(result.userId)
-                    _state.update { it.copy(loading = false) }
-                    onSuccess()
+            val succeeded = try {
+                when (val result = operation()) {
+                    is UserRepository.AuthResult.Success -> {
+                        sessionManager.login(result.userId)
+                        true
+                    }
+                    is UserRepository.AuthResult.Failure -> {
+                        _state.update { it.copy(error = result.message) }
+                        false
+                    }
                 }
-                is UserRepository.AuthResult.Failure ->
-                    _state.update { it.copy(loading = false, error = result.message) }
+            } catch (cancelled: CancellationException) {
+                throw cancelled
+            } catch (_: Exception) {
+                _state.update { it.copy(error = failureMessage) }
+                false
+            } finally {
+                _state.update { it.copy(loading = false) }
             }
+            if (succeeded) onSuccess()
         }
     }
 }

@@ -1,0 +1,2496 @@
+{
+  "schemaVersion": 1,
+  "packId": "meridian-encyclopedia",
+  "bodyFrame": {
+    "width": 340,
+    "height": 480
+  },
+  "artworkRect": {
+    "x": 19,
+    "y": 23,
+    "width": 290,
+    "height": 435
+  },
+  "views": [
+    {
+      "id": "front",
+      "name": "正面",
+      "artwork": "illustrations/body-front-faced.png"
+    },
+    {
+      "id": "back",
+      "name": "背面",
+      "artwork": "illustrations/body-back-matched.png"
+    },
+    {
+      "id": "side",
+      "name": "左侧面",
+      "artwork": "illustrations/body-side-faced.png"
+    }
+  ],
+  "projectionNotes": {
+    "landmark": "按插画可见的体表标志定位",
+    "covered": "当前侧面衣料或重叠肢体遮盖局部地标，坐标按相邻体表比例投影",
+    "vertebra": "椎节、骶孔或旁开列按背部地标与横寸关系投影",
+    "face": "按插画的五官、发际或头颈轮廓投影，细部以国标与局部图为准",
+    "projected": "按国标定位关系与插画比例投影，精细地标以条款为准"
+  },
+  "projections": {
+    "front": {
+      "LU": [
+        {
+          "pointCode": "LU1",
+          "x": 200,
+          "y": 113,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LU2",
+          "x": 200,
+          "y": 106,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LU3",
+          "x": 219.5,
+          "y": 144,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LU4",
+          "x": 222.1,
+          "y": 150,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LU5",
+          "x": 235,
+          "y": 176.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LU6",
+          "x": 247.92,
+          "y": 195.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LU7",
+          "x": 264,
+          "y": 216,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LU8",
+          "x": 264.5,
+          "y": 218.3,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LU9",
+          "x": 266,
+          "y": 222.1,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LU10",
+          "x": 274,
+          "y": 224.3,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LU11",
+          "x": 288,
+          "y": 233,
+          "rating": "projected"
+        }
+      ],
+      "LI": [
+        {
+          "pointCode": "LI19",
+          "x": 166.3,
+          "y": 69.7,
+          "rating": "face"
+        },
+        {
+          "pointCode": "LI20",
+          "x": 170.2,
+          "y": 66.3,
+          "rating": "face"
+        }
+      ],
+      "ST": [
+        {
+          "pointCode": "ST1",
+          "x": 171.6,
+          "y": 60.9,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST2",
+          "x": 171.6,
+          "y": 64.9,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST3",
+          "x": 171.6,
+          "y": 68.3,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST4",
+          "x": 173.6,
+          "y": 73.4,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST5",
+          "x": 175,
+          "y": 77.4,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST6",
+          "x": 175.3,
+          "y": 74,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST7",
+          "x": 177.3,
+          "y": 64.3,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST8",
+          "x": 177,
+          "y": 45,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST9",
+          "x": 172,
+          "y": 87,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST10",
+          "x": 172,
+          "y": 94,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST11",
+          "x": 169,
+          "y": 100,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST12",
+          "x": 188,
+          "y": 101,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST13",
+          "x": 189,
+          "y": 105,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST14",
+          "x": 189,
+          "y": 113,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST15",
+          "x": 189,
+          "y": 121,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST16",
+          "x": 189,
+          "y": 129,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST17",
+          "x": 188,
+          "y": 137,
+          "rating": "landmark"
+        },
+        {
+          "pointCode": "ST18",
+          "x": 189,
+          "y": 145,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST19",
+          "x": 177,
+          "y": 162,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST20",
+          "x": 177,
+          "y": 166.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST21",
+          "x": 177,
+          "y": 171,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST22",
+          "x": 177,
+          "y": 175.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST23",
+          "x": 177,
+          "y": 180,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST24",
+          "x": 177,
+          "y": 184.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST25",
+          "x": 178,
+          "y": 189,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST26",
+          "x": 177,
+          "y": 196,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST27",
+          "x": 177,
+          "y": 203,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST28",
+          "x": 177,
+          "y": 210,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST29",
+          "x": 177,
+          "y": 217,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST30",
+          "x": 177,
+          "y": 224,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST31",
+          "x": 188,
+          "y": 237,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST32",
+          "x": 190,
+          "y": 270,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST33",
+          "x": 191,
+          "y": 284,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST34",
+          "x": 192,
+          "y": 290,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST35",
+          "x": 193,
+          "y": 312,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST36",
+          "x": 193.6,
+          "y": 331.9,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST37",
+          "x": 194.1,
+          "y": 351.8,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST38",
+          "x": 194.5,
+          "y": 365,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST39",
+          "x": 194.7,
+          "y": 371.6,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST40",
+          "x": 201,
+          "y": 365,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST41",
+          "x": 196,
+          "y": 418,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST42",
+          "x": 198,
+          "y": 427,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST43",
+          "x": 203,
+          "y": 435,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST44",
+          "x": 205,
+          "y": 439,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "ST45",
+          "x": 203,
+          "y": 442,
+          "rating": "projected"
+        }
+      ],
+      "SP": [
+        {
+          "pointCode": "SP1",
+          "x": 196,
+          "y": 440,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP2",
+          "x": 193,
+          "y": 435,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP3",
+          "x": 191,
+          "y": 431,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP4",
+          "x": 189,
+          "y": 426,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP5",
+          "x": 188,
+          "y": 419,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP6",
+          "x": 187,
+          "y": 395,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP7",
+          "x": 183,
+          "y": 375,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP8",
+          "x": 180,
+          "y": 342,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP9",
+          "x": 179,
+          "y": 321,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP10",
+          "x": 178,
+          "y": 288,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP11",
+          "x": 174,
+          "y": 250,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP12",
+          "x": 179,
+          "y": 225,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP13",
+          "x": 189,
+          "y": 219,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP14",
+          "x": 189,
+          "y": 198,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP15",
+          "x": 189,
+          "y": 189,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP16",
+          "x": 189,
+          "y": 175.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP17",
+          "x": 201,
+          "y": 145,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP18",
+          "x": 201,
+          "y": 137,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP19",
+          "x": 201,
+          "y": 129,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SP20",
+          "x": 201,
+          "y": 121,
+          "rating": "projected"
+        }
+      ],
+      "HT": [
+        {
+          "pointCode": "HT1",
+          "x": 204,
+          "y": 133,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "HT2",
+          "x": 215,
+          "y": 155,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "HT3",
+          "x": 226,
+          "y": 180,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "HT4",
+          "x": 256,
+          "y": 216,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "HT5",
+          "x": 258,
+          "y": 219,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "HT6",
+          "x": 259.5,
+          "y": 222,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "HT7",
+          "x": 261,
+          "y": 225,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "HT8",
+          "x": 269,
+          "y": 242,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "HT9",
+          "x": 271,
+          "y": 253,
+          "rating": "projected"
+        }
+      ],
+      "BL": [
+        {
+          "pointCode": "BL1",
+          "x": 167.4,
+          "y": 59,
+          "rating": "face"
+        },
+        {
+          "pointCode": "BL2",
+          "x": 166.8,
+          "y": 54.7,
+          "rating": "face"
+        },
+        {
+          "pointCode": "BL3",
+          "x": 168,
+          "y": 43,
+          "rating": "face"
+        },
+        {
+          "pointCode": "BL63",
+          "x": 205,
+          "y": 426,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL64",
+          "x": 209,
+          "y": 431,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL65",
+          "x": 212,
+          "y": 434,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL66",
+          "x": 213,
+          "y": 436,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL67",
+          "x": 214,
+          "y": 438,
+          "rating": "projected"
+        }
+      ],
+      "KI": [
+        {
+          "pointCode": "KI2",
+          "x": 189,
+          "y": 429,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI6",
+          "x": 188,
+          "y": 424,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI8",
+          "x": 188,
+          "y": 402,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI11",
+          "x": 167,
+          "y": 224,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI12",
+          "x": 167,
+          "y": 217,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI13",
+          "x": 167,
+          "y": 210,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI14",
+          "x": 167,
+          "y": 203,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI15",
+          "x": 167,
+          "y": 196,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI16",
+          "x": 167,
+          "y": 189,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI17",
+          "x": 167,
+          "y": 180,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI18",
+          "x": 167,
+          "y": 175.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI19",
+          "x": 167,
+          "y": 171,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI20",
+          "x": 167,
+          "y": 166.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI21",
+          "x": 167,
+          "y": 162,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI22",
+          "x": 177,
+          "y": 145,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI23",
+          "x": 177,
+          "y": 137,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI24",
+          "x": 177,
+          "y": 129,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI25",
+          "x": 177,
+          "y": 121,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI26",
+          "x": 177,
+          "y": 113,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI27",
+          "x": 177,
+          "y": 105,
+          "rating": "projected"
+        }
+      ],
+      "PC": [
+        {
+          "pointCode": "PC1",
+          "x": 196,
+          "y": 137,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "PC2",
+          "x": 211,
+          "y": 144,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "PC3",
+          "x": 232,
+          "y": 177,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "PC4",
+          "x": 250,
+          "y": 204,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "PC5",
+          "x": 255,
+          "y": 211,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "PC6",
+          "x": 258,
+          "y": 215,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "PC7",
+          "x": 264,
+          "y": 223,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "PC8",
+          "x": 273,
+          "y": 241,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "PC9",
+          "x": 283,
+          "y": 259,
+          "rating": "projected"
+        }
+      ],
+      "GB": [
+        {
+          "pointCode": "GB24",
+          "x": 189,
+          "y": 161,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "GB41",
+          "x": 204,
+          "y": 429,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "GB42",
+          "x": 208,
+          "y": 433,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "GB43",
+          "x": 210,
+          "y": 436,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "GB44",
+          "x": 210,
+          "y": 439,
+          "rating": "projected"
+        }
+      ],
+      "LR": [
+        {
+          "pointCode": "LR1",
+          "x": 200,
+          "y": 442,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LR2",
+          "x": 200,
+          "y": 437,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LR3",
+          "x": 196,
+          "y": 432,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LR4",
+          "x": 189,
+          "y": 417,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LR5",
+          "x": 188,
+          "y": 383,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LR6",
+          "x": 187,
+          "y": 370,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LR9",
+          "x": 177,
+          "y": 278,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LR10",
+          "x": 177,
+          "y": 247,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LR11",
+          "x": 177,
+          "y": 239,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LR12",
+          "x": 180,
+          "y": 224,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LR13",
+          "x": 194,
+          "y": 173,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LR14",
+          "x": 189,
+          "y": 153,
+          "rating": "projected"
+        }
+      ],
+      "CV": [
+        {
+          "pointCode": "CV2",
+          "x": 164,
+          "y": 224,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV3",
+          "x": 164,
+          "y": 217,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV4",
+          "x": 164,
+          "y": 210,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV5",
+          "x": 164,
+          "y": 203,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV6",
+          "x": 164,
+          "y": 199.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV7",
+          "x": 164,
+          "y": 196,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV8",
+          "x": 164,
+          "y": 189,
+          "rating": "landmark"
+        },
+        {
+          "pointCode": "CV9",
+          "x": 164,
+          "y": 184.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV10",
+          "x": 164,
+          "y": 180,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV11",
+          "x": 164,
+          "y": 175.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV12",
+          "x": 164,
+          "y": 171,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV13",
+          "x": 164,
+          "y": 166.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV14",
+          "x": 164,
+          "y": 162,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV15",
+          "x": 164,
+          "y": 157.5,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV16",
+          "x": 164,
+          "y": 153,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV17",
+          "x": 164,
+          "y": 137,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV18",
+          "x": 164,
+          "y": 129,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV19",
+          "x": 164,
+          "y": 121,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV20",
+          "x": 164,
+          "y": 113,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV21",
+          "x": 164,
+          "y": 108,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "CV22",
+          "x": 164,
+          "y": 102,
+          "rating": "face"
+        },
+        {
+          "pointCode": "CV23",
+          "x": 164,
+          "y": 83,
+          "rating": "face"
+        },
+        {
+          "pointCode": "CV24",
+          "x": 164,
+          "y": 77.7,
+          "rating": "face"
+        }
+      ],
+      "GV": [
+        {
+          "pointCode": "GV21",
+          "x": 164,
+          "y": 35,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV22",
+          "x": 164,
+          "y": 38,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV23",
+          "x": 164,
+          "y": 42,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV24",
+          "x": 164,
+          "y": 45,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV25",
+          "x": 164,
+          "y": 64.9,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV26",
+          "x": 164,
+          "y": 69.7,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV27",
+          "x": 164,
+          "y": 72.3,
+          "rating": "face"
+        }
+      ]
+    },
+    "back": {
+      "LI": [
+        {
+          "pointCode": "LI1",
+          "x": 39,
+          "y": 251,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LI2",
+          "x": 45,
+          "y": 243,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LI3",
+          "x": 47,
+          "y": 240,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LI4",
+          "x": 51,
+          "y": 235,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LI5",
+          "x": 61,
+          "y": 221,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LI6",
+          "x": 72,
+          "y": 210,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LI7",
+          "x": 79,
+          "y": 202,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LI8",
+          "x": 85,
+          "y": 192,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LI9",
+          "x": 88,
+          "y": 188,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LI10",
+          "x": 91,
+          "y": 184,
+          "rating": "projected"
+        }
+      ],
+      "SI": [
+        {
+          "pointCode": "SI1",
+          "x": 55,
+          "y": 254,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI2",
+          "x": 57,
+          "y": 245,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI3",
+          "x": 58,
+          "y": 242,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI4",
+          "x": 60,
+          "y": 233,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI5",
+          "x": 64,
+          "y": 226,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI6",
+          "x": 65,
+          "y": 222,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI7",
+          "x": 78,
+          "y": 207,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI8",
+          "x": 99,
+          "y": 176,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI9",
+          "x": 121,
+          "y": 133,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI10",
+          "x": 124,
+          "y": 119,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI11",
+          "x": 137,
+          "y": 128,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI12",
+          "x": 137,
+          "y": 110,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI13",
+          "x": 146,
+          "y": 113,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "SI14",
+          "x": 140,
+          "y": 101,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "SI15",
+          "x": 149,
+          "y": 93,
+          "rating": "vertebra"
+        }
+      ],
+      "BL": [
+        {
+          "pointCode": "BL8",
+          "x": 156,
+          "y": 37,
+          "rating": "face"
+        },
+        {
+          "pointCode": "BL9",
+          "x": 156,
+          "y": 65,
+          "rating": "face"
+        },
+        {
+          "pointCode": "BL10",
+          "x": 151,
+          "y": 77,
+          "rating": "face"
+        },
+        {
+          "pointCode": "BL11",
+          "x": 152,
+          "y": 101,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL12",
+          "x": 152,
+          "y": 108,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL13",
+          "x": 152,
+          "y": 115,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL14",
+          "x": 152,
+          "y": 122,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL15",
+          "x": 152,
+          "y": 129,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL16",
+          "x": 152,
+          "y": 136,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL17",
+          "x": 152,
+          "y": 143,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL18",
+          "x": 152,
+          "y": 157,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL19",
+          "x": 152,
+          "y": 164,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL20",
+          "x": 152,
+          "y": 171,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL21",
+          "x": 152,
+          "y": 178,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL22",
+          "x": 152,
+          "y": 184,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL23",
+          "x": 152,
+          "y": 190,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL24",
+          "x": 152,
+          "y": 197,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL25",
+          "x": 152,
+          "y": 204,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL26",
+          "x": 152,
+          "y": 210,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL27",
+          "x": 152,
+          "y": 215,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL28",
+          "x": 152,
+          "y": 220,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL29",
+          "x": 152,
+          "y": 225,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL30",
+          "x": 152,
+          "y": 230,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL31",
+          "x": 156,
+          "y": 215,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL32",
+          "x": 157,
+          "y": 220,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL33",
+          "x": 158,
+          "y": 225,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL34",
+          "x": 159,
+          "y": 230,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL35",
+          "x": 160,
+          "y": 236,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL36",
+          "x": 140,
+          "y": 240,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL37",
+          "x": 140,
+          "y": 273,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL38",
+          "x": 132,
+          "y": 310,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL39",
+          "x": 131,
+          "y": 316,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL40",
+          "x": 140,
+          "y": 316,
+          "rating": "landmark"
+        },
+        {
+          "pointCode": "BL41",
+          "x": 140,
+          "y": 108,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL42",
+          "x": 140,
+          "y": 115,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL43",
+          "x": 140,
+          "y": 122,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL44",
+          "x": 140,
+          "y": 129,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL45",
+          "x": 140,
+          "y": 136,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL46",
+          "x": 140,
+          "y": 143,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL47",
+          "x": 140,
+          "y": 157,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL48",
+          "x": 140,
+          "y": 164,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL49",
+          "x": 140,
+          "y": 171,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL50",
+          "x": 140,
+          "y": 178,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL51",
+          "x": 140,
+          "y": 184,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL52",
+          "x": 140,
+          "y": 190,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL53",
+          "x": 140,
+          "y": 220,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL54",
+          "x": 140,
+          "y": 230,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "BL55",
+          "x": 137,
+          "y": 329,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL56",
+          "x": 135,
+          "y": 348,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL57",
+          "x": 134,
+          "y": 374,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL58",
+          "x": 129,
+          "y": 374,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL59",
+          "x": 128,
+          "y": 400,
+          "rating": "projected"
+        }
+      ],
+      "KI": [
+        {
+          "pointCode": "KI3",
+          "x": 138,
+          "y": 416,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI4",
+          "x": 138,
+          "y": 421,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI5",
+          "x": 137,
+          "y": 425,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI7",
+          "x": 137,
+          "y": 402,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI9",
+          "x": 141,
+          "y": 381,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "KI10",
+          "x": 143,
+          "y": 316,
+          "rating": "projected"
+        }
+      ],
+      "TE": [
+        {
+          "pointCode": "TE1",
+          "x": 47,
+          "y": 258,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE2",
+          "x": 53,
+          "y": 248,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE3",
+          "x": 56,
+          "y": 241,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE4",
+          "x": 62,
+          "y": 224,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE5",
+          "x": 69,
+          "y": 216,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE6",
+          "x": 72,
+          "y": 212,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE7",
+          "x": 74,
+          "y": 212,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE8",
+          "x": 75,
+          "y": 208,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE9",
+          "x": 82,
+          "y": 196,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE10",
+          "x": 98,
+          "y": 171,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE11",
+          "x": 101,
+          "y": 166,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE12",
+          "x": 110,
+          "y": 147,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE13",
+          "x": 116,
+          "y": 133,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE14",
+          "x": 118,
+          "y": 110,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "TE15",
+          "x": 142,
+          "y": 104,
+          "rating": "projected"
+        }
+      ],
+      "GB": [
+        {
+          "pointCode": "GB20",
+          "x": 151,
+          "y": 72,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB21",
+          "x": 143,
+          "y": 96,
+          "rating": "face"
+        }
+      ],
+      "LR": [
+        {
+          "pointCode": "LR7",
+          "x": 146,
+          "y": 323,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "LR8",
+          "x": 148,
+          "y": 317,
+          "rating": "projected"
+        }
+      ],
+      "GV": [
+        {
+          "pointCode": "GV2",
+          "x": 164,
+          "y": 227,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV3",
+          "x": 164,
+          "y": 204,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV4",
+          "x": 164,
+          "y": 190,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV5",
+          "x": 164,
+          "y": 184,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV6",
+          "x": 164,
+          "y": 171,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV7",
+          "x": 164,
+          "y": 164,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV8",
+          "x": 164,
+          "y": 157,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV9",
+          "x": 164,
+          "y": 143,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV10",
+          "x": 164,
+          "y": 136,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV11",
+          "x": 164,
+          "y": 129,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV12",
+          "x": 164,
+          "y": 115,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV13",
+          "x": 164,
+          "y": 101,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV14",
+          "x": 164,
+          "y": 93,
+          "rating": "vertebra"
+        },
+        {
+          "pointCode": "GV15",
+          "x": 164,
+          "y": 77,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV16",
+          "x": 164,
+          "y": 72,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV17",
+          "x": 164,
+          "y": 65,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV18",
+          "x": 164,
+          "y": 51,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV19",
+          "x": 164,
+          "y": 42,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV20",
+          "x": 164,
+          "y": 35,
+          "rating": "face"
+        }
+      ]
+    },
+    "side": {
+      "LU": [
+        {
+          "pointCode": "LU7",
+          "x": 178,
+          "y": 216,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "LU11",
+          "x": 199,
+          "y": 240,
+          "rating": "projected"
+        }
+      ],
+      "LI": [
+        {
+          "pointCode": "LI11",
+          "x": 157,
+          "y": 170,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "LI12",
+          "x": 148,
+          "y": 165,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "LI13",
+          "x": 151,
+          "y": 151,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "LI14",
+          "x": 151,
+          "y": 129,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "LI15",
+          "x": 155,
+          "y": 110,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "LI16",
+          "x": 144,
+          "y": 102,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "LI17",
+          "x": 163,
+          "y": 89,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "LI18",
+          "x": 163,
+          "y": 83,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "LI19",
+          "x": 178.7,
+          "y": 66.9,
+          "rating": "face"
+        },
+        {
+          "pointCode": "LI20",
+          "x": 179.9,
+          "y": 64.6,
+          "rating": "face"
+        }
+      ],
+      "ST": [
+        {
+          "pointCode": "ST5",
+          "x": 164.8,
+          "y": 76,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST6",
+          "x": 166.5,
+          "y": 69.7,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST7",
+          "x": 159.8,
+          "y": 63.5,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST8",
+          "x": 171.6,
+          "y": 43.7,
+          "rating": "face"
+        },
+        {
+          "pointCode": "ST36",
+          "x": 159,
+          "y": 332,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "ST40",
+          "x": 155,
+          "y": 365,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "ST41",
+          "x": 156,
+          "y": 422,
+          "rating": "covered"
+        }
+      ],
+      "SP": [
+        {
+          "pointCode": "SP21",
+          "x": 153,
+          "y": 153,
+          "rating": "covered"
+        }
+      ],
+      "SI": [
+        {
+          "pointCode": "SI16",
+          "x": 160,
+          "y": 84,
+          "rating": "face"
+        },
+        {
+          "pointCode": "SI17",
+          "x": 159.5,
+          "y": 74.3,
+          "rating": "face"
+        },
+        {
+          "pointCode": "SI18",
+          "x": 173.1,
+          "y": 63.8,
+          "rating": "face"
+        },
+        {
+          "pointCode": "SI19",
+          "x": 156.6,
+          "y": 61.2,
+          "rating": "landmark"
+        }
+      ],
+      "BL": [
+        {
+          "pointCode": "BL4",
+          "x": 175,
+          "y": 44,
+          "rating": "face"
+        },
+        {
+          "pointCode": "BL5",
+          "x": 172,
+          "y": 41,
+          "rating": "face"
+        },
+        {
+          "pointCode": "BL6",
+          "x": 166,
+          "y": 36,
+          "rating": "face"
+        },
+        {
+          "pointCode": "BL7",
+          "x": 159,
+          "y": 34,
+          "rating": "face"
+        },
+        {
+          "pointCode": "BL8",
+          "x": 151,
+          "y": 36,
+          "rating": "face"
+        },
+        {
+          "pointCode": "BL60",
+          "x": 138,
+          "y": 422,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL61",
+          "x": 137,
+          "y": 432,
+          "rating": "projected"
+        },
+        {
+          "pointCode": "BL62",
+          "x": 143,
+          "y": 429,
+          "rating": "projected"
+        }
+      ],
+      "TE": [
+        {
+          "pointCode": "TE16",
+          "x": 157,
+          "y": 81,
+          "rating": "face"
+        },
+        {
+          "pointCode": "TE17",
+          "x": 152.1,
+          "y": 68,
+          "rating": "face"
+        },
+        {
+          "pointCode": "TE18",
+          "x": 147,
+          "y": 60.7,
+          "rating": "face"
+        },
+        {
+          "pointCode": "TE19",
+          "x": 147,
+          "y": 55.9,
+          "rating": "face"
+        },
+        {
+          "pointCode": "TE20",
+          "x": 151,
+          "y": 51.6,
+          "rating": "face"
+        },
+        {
+          "pointCode": "TE21",
+          "x": 156.6,
+          "y": 59,
+          "rating": "face"
+        },
+        {
+          "pointCode": "TE22",
+          "x": 159.2,
+          "y": 55.3,
+          "rating": "face"
+        },
+        {
+          "pointCode": "TE23",
+          "x": 169.7,
+          "y": 53.3,
+          "rating": "face"
+        }
+      ],
+      "GB": [
+        {
+          "pointCode": "GB1",
+          "x": 170.8,
+          "y": 57.3,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB2",
+          "x": 156.6,
+          "y": 63.2,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB3",
+          "x": 159.8,
+          "y": 59.8,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB4",
+          "x": 172.2,
+          "y": 44.8,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB5",
+          "x": 169.4,
+          "y": 47.4,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB6",
+          "x": 164.8,
+          "y": 49.3,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB7",
+          "x": 161.5,
+          "y": 51.6,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB8",
+          "x": 151,
+          "y": 45.7,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB9",
+          "x": 146.7,
+          "y": 44.2,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB10",
+          "x": 143,
+          "y": 48.8,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB11",
+          "x": 143.6,
+          "y": 55,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB12",
+          "x": 145,
+          "y": 65.8,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB13",
+          "x": 168,
+          "y": 42.5,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB14",
+          "x": 175.3,
+          "y": 48.8,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB15",
+          "x": 170.2,
+          "y": 41.7,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB16",
+          "x": 166,
+          "y": 38.6,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB17",
+          "x": 160.9,
+          "y": 35.7,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB18",
+          "x": 153.2,
+          "y": 34,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB19",
+          "x": 141,
+          "y": 62,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB20",
+          "x": 145,
+          "y": 73,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GB21",
+          "x": 144,
+          "y": 101,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB22",
+          "x": 158,
+          "y": 137,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB23",
+          "x": 164,
+          "y": 137,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB24",
+          "x": 175,
+          "y": 161,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB25",
+          "x": 147,
+          "y": 178,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB26",
+          "x": 151,
+          "y": 189,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB27",
+          "x": 172,
+          "y": 213,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB28",
+          "x": 170,
+          "y": 218,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB29",
+          "x": 154,
+          "y": 218,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB30",
+          "x": 140,
+          "y": 226,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB31",
+          "x": 152,
+          "y": 269,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB32",
+          "x": 151,
+          "y": 280,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB33",
+          "x": 150,
+          "y": 306,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB34",
+          "x": 159,
+          "y": 323,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB35",
+          "x": 141,
+          "y": 373,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB36",
+          "x": 151,
+          "y": 373,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB37",
+          "x": 149,
+          "y": 386,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB38",
+          "x": 148,
+          "y": 392.5,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB39",
+          "x": 148,
+          "y": 399,
+          "rating": "covered"
+        },
+        {
+          "pointCode": "GB40",
+          "x": 155,
+          "y": 428,
+          "rating": "covered"
+        }
+      ],
+      "LR": [
+        {
+          "pointCode": "LR13",
+          "x": 153,
+          "y": 172,
+          "rating": "covered"
+        }
+      ],
+      "GV": [
+        {
+          "pointCode": "GV20",
+          "x": 158.3,
+          "y": 33.2,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV21",
+          "x": 164.6,
+          "y": 34.6,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV22",
+          "x": 168.8,
+          "y": 37.4,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV23",
+          "x": 171.6,
+          "y": 40,
+          "rating": "face"
+        },
+        {
+          "pointCode": "GV24",
+          "x": 173.6,
+          "y": 42.8,
+          "rating": "face"
+        }
+      ]
+    }
+  },
+  "occluded": [
+    {
+      "pointCode": "CV1",
+      "view": "front",
+      "regionLabel": "会阴"
+    },
+    {
+      "pointCode": "GV1",
+      "view": "back",
+      "regionLabel": "尾骨尖下方"
+    },
+    {
+      "pointCode": "GV28",
+      "view": "front",
+      "regionLabel": "上唇内侧"
+    },
+    {
+      "pointCode": "KI1",
+      "view": "back",
+      "regionLabel": "足底"
+    }
+  ],
+  "lungFront": {
+    "mainPath": "M200 113L200 106Q203 113 207 122Q214 131 219.5 144L222.1 150Q226 163 235 176.5L247.92 195.5Q256 205 260 215L264.5 218.3 266 222.1Q270 221 274 224.3Q281 228 288 233",
+    "directionPath": "m225 166 5 2 1-5",
+    "branchPath": "M260 215Q267 225 278 233.5Q283 242 289 254",
+    "featuredPointCodes": [
+      "LU1",
+      "LU2",
+      "LU5",
+      "LU7",
+      "LU11"
+    ],
+    "wristPointCodes": [
+      "LU7",
+      "LU8",
+      "LU9",
+      "LU10",
+      "LU11"
+    ],
+    "labels": [
+      {
+        "pointCode": "LU1",
+        "x": 200,
+        "y": 113,
+        "labelX": 250,
+        "labelY": 121
+      },
+      {
+        "pointCode": "LU2",
+        "x": 200,
+        "y": 106,
+        "labelX": 244,
+        "labelY": 92
+      },
+      {
+        "pointCode": "LU3",
+        "x": 219.5,
+        "y": 144,
+        "labelX": 261,
+        "labelY": 139
+      },
+      {
+        "pointCode": "LU4",
+        "x": 222.1,
+        "y": 150,
+        "labelX": 268,
+        "labelY": 158
+      },
+      {
+        "pointCode": "LU5",
+        "x": 235,
+        "y": 176.5,
+        "labelX": 268,
+        "labelY": 177
+      },
+      {
+        "pointCode": "LU6",
+        "x": 247.92,
+        "y": 195.5,
+        "labelX": 277,
+        "labelY": 195
+      },
+      {
+        "pointCode": "LU7",
+        "x": 264,
+        "y": 216,
+        "labelX": 221,
+        "labelY": 220
+      },
+      {
+        "pointCode": "LU8",
+        "x": 264.5,
+        "y": 218.3,
+        "labelX": 209,
+        "labelY": 248
+      },
+      {
+        "pointCode": "LU9",
+        "x": 266,
+        "y": 222.1,
+        "labelX": 222,
+        "labelY": 268
+      },
+      {
+        "pointCode": "LU10",
+        "x": 274,
+        "y": 224.3,
+        "labelX": 244,
+        "labelY": 289
+      },
+      {
+        "pointCode": "LU11",
+        "x": 288,
+        "y": 233,
+        "labelX": 293,
+        "labelY": 274
+      }
+    ],
+    "textbookUrl": "https://jxjyxb.bucm.edu.cn/BZYAttachs/courseware/zhenjiuxue/a3/a31_1.htm",
+    "standardUrl": "https://www.ntcamsac.ac.cn/upload/std_info/202306192125376309.pdf"
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--
+      P1：应用允许用户配置自建端点（局域网 Ollama / LM Studio / 内网网关等），
+      这类端点通常只有 http://。targetSdk >= 28 时系统默认禁止明文流量，
+      结果是 EndpointNormalizer 接受的 http 端点在实际请求阶段必然失败，
+      且只会表现为笼统的“网络错误”，掩盖真实原因。
+
+      这里只放开「明文传输许可」，不改变 TLS 信任策略：
+        - trust-anchors 仍只用系统证书（不信任用户安装的 CA，避免被中间人替换）；
+        - 不允许 cleartext 降级 TLS 校验（两者互不影响）。
+      自建端点请仅在可信局域网内使用；生产/公网端点仍推荐 https。
+    -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
